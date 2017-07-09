@@ -1,7 +1,7 @@
 .highlight code, pre { background: #012456 !important }
 .highlight .hll { background-color: #404040 !important }
 .highlight  { background: #012456 !important; color: #afafaf !important }
-.highlight .c { color: #62df4e !important; font-style: italic } /* Comment */
+.highlight .c { color: #62df4e !important; } /* Comment */
 .highlight .err { color: #a61717 !important; background-color: #e3d2d2 !important } /* Error */
 .highlight .esc { color: #afafaf !important } /* Escape */
 .highlight .g { color: #afafaf !important } /* Generic */
