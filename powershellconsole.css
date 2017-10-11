@@ -1,16 +1,23 @@
+/*
+* Pygments PowerShell Console Style v1.0
+* 
+* https://github.com/pauby/pygments-powershellconsole-css
+* 
+* See CHANGELOG.md for updates.
+*/
 .highlight code, pre { background: #012456 !important }
 .highlight .hll { background-color: #404040 !important }
 .highlight  { background: #012456 !important; color: #afafaf !important }
-.highlight .c { color: #62df4e !important; } /* Comment */
-.highlight .err { color: #a61717 !important; background-color: #e3d2d2 !important } /* Error */
+.highlight .c { color: #008014 !important; } /* Comment */
+/*.highlight .err { color: #a61717 !important; background-color: #e3d2d2 !important } /* Error */ /* This isn't all that useful in PowerShell - added to .highlight .n */
 .highlight .esc { color: #afafaf !important } /* Escape */
 .highlight .g { color: #afafaf !important } /* Generic */
-.highlight .k { color: #6ab825 !important; font-weight: bold } /* Keyword */
+.highlight .k { color: #00ff22 !important; font-weight: bold } /* Keyword */
 .highlight .l { color: #afafaf !important } /* Literal */
-.highlight .n { color: #afafaf !important } /* Name */
+.highlight .n, .highlight .err { color: #afafaf !important } /* Name */
 .highlight .o { color: #afafaf !important } /* Operator */
 .highlight .x { color: #afafaf !important } /* Other */
-.highlight .p { color: #afafaf !important } /* Punctuation */
+.highlight .p { color: #afafaf  !important } /* Punctuation */
 .highlight .ch { color: #62df4e !important; font-style: italic } /* Comment.Hashbang */
 .highlight .cm { color: #62df4e !important; font-style: italic } /* Comment.Multiline */
 .highlight .cp { color: #cd2828 !important; font-weight: bold } /* Comment.Preproc */
@@ -36,10 +43,11 @@
 .highlight .ld { color: #afafaf !important } /* Literal.Date */
 .highlight .m { color: #3677a9 !important } /* Literal.Number */
 .highlight .s { color: #D69D85 !important } /* Literal.String */
+.highlight .n { color: #ffffff !important }
 .highlight .na { color: #bbbbbb !important } /* Name.Attribute */
 .highlight .nb { color: #ffff00 !important } /* Name.Builtin */
 .highlight .nc { color: #447fcf !important ; text-decoration: underline } /* Name.Class */
-.highlight .no { color: #40ffff !important } /* Name.Constant */
+.highlight .no { color: #c0c0af !important } /* Name.Constant */
 .highlight .nd { color: #ffa500 !important } /* Name.Decorator */
 .highlight .ni { color: #afafaf !important } /* Name.Entity */
 .highlight .ne { color: #bbbbbb !important } /* Name.Exception */
@@ -49,7 +57,7 @@
 .highlight .nx { color: #afafaf !important } /* Name.Other */
 .highlight .py { color: #afafaf !important } /* Name.Property */
 .highlight .nt { color: #6ab825 !important ; font-weight: bold } /* Name.Tag */
-.highlight .nv { color: #40ffff !important } /* Name.Variable */
+.highlight .nv { color: #00ff22 !important } /* Name.Variable */
 .highlight .ow { color: #6ab825 !important ; font-weight: bold } /* Operator.Word */
 .highlight .w { color: #666666 !important } /* Text.Whitespace */
 .highlight .mb { color: #3677a9 !important } /* Literal.Number.Bin */
@@ -62,13 +70,13 @@
 .highlight .sc { color: #D69D85 !important } /* Literal.String.Char */
 .highlight .dl { color: #D69D85 !important } /* Literal.String.Delimiter */
 .highlight .sd { color: #D69D85 !important } /* Literal.String.Doc */
-.highlight .s2 { color: #D69D85 !important } /* Literal.String.Double */
+.highlight .s2 { color: #008073 !important } /* Literal.String.Double */
 .highlight .se { color: #D69D85 !important } /* Literal.String.Escape */
-.highlight .sh { color: #D69D85 !important } /* Literal.String.Heredoc */
+.highlight .sh { color: #008073 !important } /* Literal.String.Heredoc */
 .highlight .si { color: #D69D85 !important } /* Literal.String.Interpol */
 .highlight .sx { color: #ffa500 !important } /* Literal.String.Other */
 .highlight .sr { color: #D69D85 !important } /* Literal.String.Regex */
-.highlight .s1 { color: #D69D85 !important } /* Literal.String.Single */
+.highlight .s1 { color: #008073 !important } /* Literal.String.Single */
 .highlight .ss { color: #D69D85 !important } /* Literal.String.Symbol */
 .highlight .bp { color: #24909d !important } /* Name.Builtin.Pseudo */
 .highlight .fm { color: #447fcf !important } /* Name.Function.Magic */
