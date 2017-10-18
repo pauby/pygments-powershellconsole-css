@@ -1,4 +1,4 @@
-# pygments-powershellconsole-css
+# pygments-powershellconsole-css [NOT MAINTAINED]
 
 This is a stylesheet you can use with [Pygments](http://pygments.org/) to create the colours of the PowerShell default console window.
 
