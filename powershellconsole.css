@@ -1,3 +1,10 @@
+/*
+* Pygments PowerShell Console Style v1.0
+* 
+* https://github.com/pauby/pygments-powershellconsole-css
+* 
+* See CHANGELOG.md for updates.
+*/
 .highlight code, pre { background: #012456 !important }
 .highlight .hll { background-color: #404040 !important }
 .highlight  { background: #012456 !important; color: #afafaf !important }
